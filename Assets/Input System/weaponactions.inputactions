@@ -1,0 +1,94 @@
+{
+    "name": "weaponactions",
+    "maps": [
+        {
+            "name": "weapon action",
+            "id": "328282a7-41a1-46c2-9d22-bba6e7b84f74",
+            "actions": [
+                {
+                    "name": "melee",
+                    "type": "Button",
+                    "id": "9d90e401-a196-4781-be74-a1ca2e32b0dc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "special 1",
+                    "type": "Button",
+                    "id": "963cff22-d04a-43e3-955c-d5412bd5052d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "special 2",
+                    "type": "Button",
+                    "id": "6ff783d5-cca0-40f2-b748-528a5e39055d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Switch",
+                    "type": "Button",
+                    "id": "71d57c22-6186-42f2-a279-51eb9fa9882f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "113f22bb-dc30-41f4-850f-e5977dc6876b",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "melee",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "19ffd0e5-bede-4fec-b702-f6566d101bf7",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "special 1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dbc30e18-3bf8-4e42-ba08-6bb1ce9f3ca6",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "special 2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ef226a8d-35c7-4ca1-9c64-aa3517682d19",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Switch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
