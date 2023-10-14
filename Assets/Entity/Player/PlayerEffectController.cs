@@ -19,7 +19,7 @@ public class PlayerEffectController : MonoBehaviour
         {
             Destroy(currentActive);
         }
-        currentActive = Instantiate(special1Prefab, EffectsParent, true);
+        currentActive = Instantiate(special1Prefab, EffectsParent, false);
 
     }
     public void TriggerSpecial2()
@@ -28,7 +28,7 @@ public class PlayerEffectController : MonoBehaviour
         {
             Destroy(currentActive);
         }
-        currentActive = Instantiate(special2Prefab, EffectsParent, true);
+        currentActive = Instantiate(special2Prefab, EffectsParent, false);
     }
 
 
