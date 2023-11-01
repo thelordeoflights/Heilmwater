@@ -13,8 +13,8 @@ public class Thirdperson : MonoBehaviour
     void Start()
     {
 
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        // Cursor.lockState = CursorLockMode.Locked;
+        // Cursor.visible = false;
     }
 
     // Update is called once per frame
@@ -31,7 +31,7 @@ public class Thirdperson : MonoBehaviour
 
         if (inputD != Vector3.zero)
         {
-            Debug.Log("HERE");
+            // Debug.Log("HERE");
             playerObj.forward = Vector3.Slerp(playerObj.forward, inputD.normalized, Time.deltaTime * rotationSpeed);
         }
     }
